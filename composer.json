@@ -1,0 +1,36 @@
+{
+    "name": "dazzlesoftware/mediawiki",
+    "type": "library",
+    "description": "Dazzle Mediawiki Package",
+    "keywords": ["dazzle", "framework", "mediawiki"],
+    "homepage": "https://github.com/dazzle-framework/mediawiki-api",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^7.3.0",
+        "dazzlesoftware/http": "^1.0",
+        "dazzlesoftware/registry": "^1.0",
+        "dazzlesoftware/uri": "^1.0"
+    },
+    "require-dev": {
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "dazzlesoftware/test": "^1.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\Mediawiki\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dazzle\\Mediawiki\\UnitTests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
+
